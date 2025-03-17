@@ -1,3 +1,8 @@
+:root {
+    --main-color:#8EB1C7
+}
+
+
 * {
     padding: 0;
     margin: 0;
@@ -19,7 +24,7 @@ nav {
 }
 
 nav {
-    background-color: lightblue;
+    background-color: var(--main-color);
 }
 
 nav a,
