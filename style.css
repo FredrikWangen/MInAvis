@@ -100,10 +100,10 @@ article.xx-large {
 
 .nyhettext {
     font-size: 3.2rem;
-    padding: 10px;
     text-decoration: none;
     text-align: center;
     color: black;
+    padding-bottom: 10px;
 }
 
 .master2 {
