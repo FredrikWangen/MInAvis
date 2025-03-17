@@ -33,7 +33,7 @@ nav button {
     background-color: inherit;
     color: darkblue;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
     padding: 20px;
     border: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -51,7 +51,7 @@ nav button {
 }
 
 .dropdown-content a {
-    font-size: 18px;
+    font-size: 15px;
     padding: 5px;
     color: white;
 }
@@ -83,6 +83,10 @@ article.medium {
 
 article.large {
     grid-column: span 6;
+}
+
+article.x-large{
+    grid-column: span 9;
 }
 
 article.xx-large {
