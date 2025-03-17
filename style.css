@@ -67,7 +67,7 @@ nav button {
     margin-top: 75px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    gap: 3px;
+    gap: 14px;
     margin-left: auto;
     margin-right: auto;
 }
