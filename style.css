@@ -9,8 +9,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
+body{
+    background-color: whitesmoke;
+}
 
 img {
     width: 100%;
@@ -34,7 +38,7 @@ nav button {
     background-color: inherit;
     color: darkblue;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
     padding: 20px;
     border: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -46,20 +50,21 @@ nav button {
     position: absolute;
     background-color: royalblue;
     padding: 20px;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-top: -10px;
+    border-radius: 15px;
 
 }
 
 .dropdown-content a {
-    font-size: 18px;
+    font-size: 15px;
     padding: 5px;
     color: white;
 }
 
 .master {
     max-width: 900px;
-    margin-top: 100px;
+    margin-top: 75px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 3px;
@@ -68,8 +73,7 @@ nav button {
 }
 
 .master>article {
-    border: 2px solid black;
-    background-color: bisque;
+    background-color: rgb(254, 254, 254);
     grid-column: span 3;
     min-height: 150px;
 }
@@ -86,12 +90,16 @@ article.large {
     grid-column: span 6;
 }
 
+article.x-large{
+    grid-column: span 9;
+}
+
 article.xx-large {
     grid-column: span 12;
 }
 
 .nyhettext {
-    font-size: 50px;
+    font-size: 3.2rem;
     padding: 10px;
     text-decoration: none;
     text-align: center;
@@ -101,3 +109,15 @@ article.xx-large {
 .master2 {
     margin-top: 20px;
 }
+
+.nyhettext a {
+    color: black;
+    text-decoration: none;
+}
+
+.nyhettext a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+
