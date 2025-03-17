@@ -19,7 +19,7 @@ nav {
 }
 
 nav {
-    background-color: royalblue;
+    background-color: lightblue;
 }
 
 nav a,
@@ -74,3 +74,6 @@ article.large {
 article.xx-large {
     grid-column: span 12;
 }
+
+.nyhettext {font-size: 30px; padding: 10px;}
+
