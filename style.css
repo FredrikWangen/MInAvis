@@ -84,6 +84,10 @@ article.large {
     grid-column: span 6;
 }
 
+article.x-large{
+    grid-column: span 9;
+}
+
 article.xx-large {
     grid-column: span 12;
 }
