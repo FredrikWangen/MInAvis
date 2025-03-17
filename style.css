@@ -45,8 +45,9 @@ nav button {
     position: absolute;
     background-color: royalblue;
     padding: 20px;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-top: -10px;
+    border-radius: 15px;
 
 }
 
