@@ -59,7 +59,7 @@ nav button {
 
 .master {
     max-width: 900px;
-    margin-top: 100px;
+    margin-top: 75px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 3px;
@@ -104,4 +104,14 @@ article.xx-large {
 
 .master2 {
     margin-top: 20px;
+}
+
+.nyhettext a {
+    color: black;
+    text-decoration: none;
+}
+
+.nyhettext a:visited {
+    color: black;
+    text-decoration: none;
 }
