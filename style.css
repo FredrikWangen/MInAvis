@@ -1,5 +1,5 @@
 :root {
-    --main-color:#8EB1C7
+    --main-color: #8EB1C7
 }
 
 
@@ -72,12 +72,12 @@ nav button {
     min-height: 150px;
 }
 
-article.small{
+article.small {
     grid-column: span 1;
 }
 
-article.medium{
-    grid-column:span 3 ;
+article.medium {
+    grid-column: span 3;
 }
 
 article.large {
@@ -88,9 +88,14 @@ article.xx-large {
     grid-column: span 12;
 }
 
-.nyhettext {font-size: 30px; padding: 10px; text-decoration: none;}
-
-.master2 {   
-    margin-top: 20px;
+.nyhettext {
+    font-size: 50px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
 }
 
+.master2 {
+    margin-top: 20px;
+}
