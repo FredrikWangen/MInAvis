@@ -74,3 +74,5 @@ article.large {
 article.xx-large {
     grid-column: span 12;
 }
+
+.nyhet1 {font-size: 30px;}
