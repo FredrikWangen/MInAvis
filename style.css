@@ -72,6 +72,14 @@ nav button {
     min-height: 150px;
 }
 
+article.small{
+    grid-column: span 1;
+}
+
+article.medium{
+    grid-column:span 3 ;
+}
+
 article.large {
     grid-column: span 6;
 }
