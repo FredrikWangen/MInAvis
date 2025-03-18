@@ -192,3 +192,7 @@ article.xx-large {
     max-width: 50rem;
     padding: 0;
 }
+
+/* Quantum Computing */
+
+a.kilder { text-decoration: underline !important; }
