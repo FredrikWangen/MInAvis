@@ -186,7 +186,10 @@ article.xx-large {
 
 .chatimg {border-radius: 10px; margin-bottom: 30px;
     padding-bottom: 20px;}
-
+.kildehead {
+    margin: 0px;
+    padding: 0px;
+}
 /* artikkel Airbus */
 #airbusArtikkel>img {
     max-width: 50rem;
