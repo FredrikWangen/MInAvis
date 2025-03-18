@@ -47,6 +47,9 @@ nav button {
     font-family: 'Roboto Flex', 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: 500;
 }
+.bildeforside{
+    width: 100% !important;
+}
 
 .dropdown-content {
     display: none;
@@ -101,6 +104,8 @@ article.x-large {
 article.xx-large {
     grid-column: span 12;
 }
+
+
 
 .nyhettext {
     font-size: 3.2rem;
