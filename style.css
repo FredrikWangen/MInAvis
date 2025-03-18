@@ -166,7 +166,8 @@ article.xx-large {
     line-height: 1.7;
 }
 
-.chatimg {border-radius: 10px;}
+.chatimg {border-radius: 10px; margin-bottom: 30px;
+    padding-bottom: 20px;}
 
 /* artikkel Airbus */
 #airbusArtikkel>img {
