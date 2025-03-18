@@ -168,6 +168,8 @@ article.xx-large {
     line-height: 1.7;
 }
 
+/* Footer */
+
 .footer1 {
     font-size: 0.8rem;
     background-color: var(--main-color);
@@ -175,6 +177,8 @@ article.xx-large {
     padding: 20px 0;
     text-align: center
 }
+
+ /* artikkel ChatGPT */
 
 .chatimg {border-radius: 10px; margin-bottom: 30px;
     padding-bottom: 20px;}
