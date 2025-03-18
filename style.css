@@ -137,6 +137,7 @@ article.xx-large {
     border-radius: 20px; 
     padding: 30px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+
 }
 
 /*   Arikkel 2 CSS */
@@ -147,7 +148,6 @@ article.xx-large {
     margin: 0 auto;
     margin-bottom: 30px;
     padding-bottom: 20px;
-    border-radius: 10px;
 
 }
 
@@ -164,3 +164,4 @@ article.xx-large {
     padding: 20px;
 }
 
+.chatimg {border-radius: 10px;}
