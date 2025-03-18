@@ -173,4 +173,5 @@ article.xx-large {
 /* artikkel Airbus */
 #airbusArtikkel>img {
     max-width: 50rem;
+    padding: 0;
 }
