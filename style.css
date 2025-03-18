@@ -195,4 +195,4 @@ article.xx-large {
 
 /* Quantum Computing */
 
-.kilder { text-decoration: underline;}
+a.kilder { text-decoration: underline !important; }
