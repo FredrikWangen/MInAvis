@@ -166,6 +166,12 @@ article.xx-large {
     line-height: 1.7;
 }
 
+.footer1 {
+    font-size: 0.8rem;
+    background-color: var(--main-color);
+    height: 60px;
+}
+
 .chatimg {border-radius: 10px; margin-bottom: 30px;
     padding-bottom: 20px;}
 
