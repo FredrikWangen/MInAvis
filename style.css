@@ -10,6 +10,7 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Newsreader', 'Roboto Flex', Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -123,6 +124,8 @@ article.xx-large {
     text-decoration: none;
 }
 
+/*   Arikkel 2 CSS */
+
 .xx-large.nyhettext img {
     width: 90%;
     display: block;
@@ -141,3 +144,4 @@ article.xx-large {
     font-size: 2rem;
     margin: 20px 0px 0px 0px;
 }
+
