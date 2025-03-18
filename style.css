@@ -124,6 +124,21 @@ article.xx-large {
     text-decoration: none;
 }
 
+/* Baisc Artikkel Layout */
+
+.Artikkellayout {
+    width: 1200px;
+    max-width: 90%; 
+    margin: 50px auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 20px; 
+    padding: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
 /*   Arikkel 2 CSS */
 
 .xx-large.nyhettext img {
@@ -131,6 +146,7 @@ article.xx-large {
     display: block;
     margin: 0 auto;
     margin-bottom: 30px;
+    padding-bottom: 20px;
 
 }
 
@@ -138,10 +154,12 @@ article.xx-large {
     font-size: 1.4rem;
     line-height: 1.7;
     margin: 15px 20px 0px 20px;
+    padding: 10px;
 }
 
 .head1 {
     font-size: 2rem;
     margin: 20px 0px 0px 0px;
+    padding: 20px;
 }
 
