@@ -127,7 +127,8 @@ article.xx-large {
 /* Baisc Artikkel Layout */
 
 .Artikkellayout {
-    width: 1200px;
+    width: 75%;
+    min-width: 75%;
     max-width: 90%; 
     margin: 50px auto; 
     display: flex;
@@ -165,3 +166,8 @@ article.xx-large {
 }
 
 .chatimg {border-radius: 10px;}
+
+/* artikkel Airbus */
+#airbusPNG {
+    max-width: 50rem;
+}
