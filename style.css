@@ -131,19 +131,19 @@ article.xx-large {
 .Artikkellayout {
     width: 75%;
     min-width: 75%;
-    max-width: 90%; 
-    margin: 50px auto; 
+    max-width: 90%;
+    margin: 80px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: whitesmoke;
-    border-radius: 20px; 
+    border-radius: 20px;
     padding: 30px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 
 }
 
-/*   Arikkel 2 CSS */
+/*  Sjenerelt Text og Bilde Artikkel Layout */
 
 .xx-large.nyhettext img {
     width: 90%;
@@ -164,12 +164,21 @@ article.xx-large {
 .head1 {
     font-size: 2rem;
     margin: 20px 0px 0px 0px;
-    padding: 20px;
+    padding: 10px;
+    line-height: 1.7;
 }
 
-.chatimg {border-radius: 10px;}
+.footer1 {
+    font-size: 0.8rem;
+    background-color: var(--main-color);
+    height: 60px;
+}
+
+.chatimg {border-radius: 10px; margin-bottom: 30px;
+    padding-bottom: 20px;}
 
 /* artikkel Airbus */
-#airbusPNG {
+#airbusArtikkel>img {
     max-width: 50rem;
+    padding: 0;
 }
