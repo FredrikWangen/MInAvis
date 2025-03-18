@@ -141,7 +141,7 @@ article.xx-large {
 
 }
 
-/*   Arikkel 2 CSS */
+/*  Sjenerelt Artikkel Layout */
 
 .xx-large.nyhettext img {
     width: 90%;
@@ -165,7 +165,12 @@ article.xx-large {
     padding: 20px;
 }
 
-.chatimg {border-radius: 10px;}
+/* Artikkel ChatGPT */
+
+.chatimg {border-radius: 10px; margin-bottom: 30px;
+    padding-bottom: 20px;}
+
+
 
 /* artikkel Airbus */
 #airbusPNG {
