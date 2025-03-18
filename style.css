@@ -129,15 +129,15 @@ article.xx-large {
 .Artikkellayout {
     width: 75%;
     min-width: 75%;
-    max-width: 90%; 
-    margin: 50px auto; 
+    max-width: 90%;
+    margin: 50px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: whitesmoke;
-    border-radius: 20px; 
+    border-radius: 20px;
     padding: 30px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 
 }
 
@@ -163,11 +163,14 @@ article.xx-large {
     font-size: 2rem;
     margin: 20px 0px 0px 0px;
     padding: 20px;
+    line-height: 1.7;
 }
 
-.chatimg {border-radius: 10px;}
+.chatimg {
+    border-radius: 10px;
+}
 
 /* artikkel Airbus */
-#airbusPNG {
+#airbusArtikkel>img {
     max-width: 50rem;
 }
