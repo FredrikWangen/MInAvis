@@ -130,7 +130,7 @@ article.xx-large {
     width: 75%;
     min-width: 75%;
     max-width: 90%;
-    margin: 80px auto;
+    margin: 80px auto 20px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -170,6 +170,8 @@ article.xx-large {
     font-size: 0.8rem;
     background-color: var(--main-color);
     height: 60px;
+    padding: 20px 0;
+    text-align: center
 }
 
 .chatimg {border-radius: 10px; margin-bottom: 30px;
