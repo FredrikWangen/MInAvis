@@ -23,7 +23,7 @@ img {
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     position: fixed;
     width: 100%;
     top: 0;
@@ -39,8 +39,8 @@ nav button {
     background-color: inherit;
     color: darkblue;
     text-decoration: none;
-    font-size: 1.8rem;
-    padding: 20px;
+    font-size: 1.5rem;
+    padding: 15px;
     border: none;
     font-family: 'Roboto Flex', 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: 500;
