@@ -72,6 +72,11 @@ nav button {
     color: white;
 }
 
+.fa-caret-up.rotate {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease;
+}
+
 /* Artikkel Format */
 
 .master {
@@ -224,9 +229,4 @@ a.kilder {
 .nyhettext.medium {
     font-size: 2.9rem; 
     line-height: 1.1;
-}
-
-.fa-caret-up.rotate {
-    transform: rotate(180deg);
-    transition: transform 0.3s ease;
 }
