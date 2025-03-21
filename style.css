@@ -72,9 +72,9 @@ nav button {
     color: white;
 }
 
-.fa-caret-up.rotate {
-    transform: rotate(180deg);
-    transition: transform 0.3s ease;
+.fa-caret-down.rotate {
+    transform: rotate(360deg);
+    transition: transform 1s ease;
 }
 
 /* Artikkel Format */
