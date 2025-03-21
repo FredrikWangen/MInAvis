@@ -230,3 +230,13 @@ a.kilder {
     font-size: 2.9rem; 
     line-height: 1.1;
 }
+
+/* BYD Lynlader */
+
+#chatimg {
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.p2 {line-height: 1.2;}
