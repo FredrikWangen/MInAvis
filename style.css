@@ -197,13 +197,8 @@ article.xx-large {
     text-decoration: none;
 }
 
-/* artikkel ChatGPT */
+/* Kode for Kilde */
 
-.chatimg {
-    border-radius: 10px;
-    margin-bottom: 30px;
-    padding-bottom: 20px;
-}
 
 .kildehead {
     margin: 0px;
@@ -231,7 +226,7 @@ a.kilder {
     line-height: 1.1;
 }
 
-/* BYD Lynlader */
+/* BYD Lynlader og Artikkel ChatGPT */
 
 #chatimg {
     border-radius: 10px;
