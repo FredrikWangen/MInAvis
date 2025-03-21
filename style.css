@@ -47,7 +47,8 @@ nav button {
     font-family: 'Roboto Flex', 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: 500;
 }
-.bildeforside{
+
+.bildeforside {
     width: 100% !important;
 }
 
@@ -154,7 +155,7 @@ article.xx-large {
     width: 90%;
     display: block;
     margin: 0 auto;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     padding-bottom: 20px;
 
 }
@@ -182,19 +183,25 @@ article.xx-large {
     padding: 20px 0;
     text-align: center
 }
-.footer1 > a {
-    color: white; 
+
+.footer1>a {
+    color: white;
     text-decoration: none;
 }
 
- /* artikkel ChatGPT */
+/* artikkel ChatGPT */
 
-.chatimg {border-radius: 10px; margin-bottom: 30px;
-    padding-bottom: 20px;}
+.chatimg {
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
 .kildehead {
     margin: 0px;
     padding: 0px;
 }
+
 /* artikkel Airbus */
 #airbusArtikkel>img {
     max-width: 50rem;
@@ -203,4 +210,6 @@ article.xx-large {
 
 /* Quantum Computing */
 
-a.kilder { text-decoration: underline !important; }
+a.kilder {
+    text-decoration: underline !important;
+}
