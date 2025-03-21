@@ -210,13 +210,7 @@ article.xx-large {
     text-decoration: none;
 }
 
-/* artikkel ChatGPT */
-
-.chatimg {
-    border-radius: 10px;
-    margin-bottom: 30px;
-    padding-bottom: 20px;
-}
+/* Kode for Kilde */
 
 .kildehead {
     margin: 0px;
@@ -235,11 +229,28 @@ a.kilder {
     text-decoration: underline !important;
 }
 
-.quanimg {padding-bottom: 0px;}
+
 
 /* Mark og Meta KI */
 
 .nyhettext.medium {
     font-size: 2.9rem; 
     line-height: 1.1;
+}
+
+/* BYD Lynlader og Artikkel ChatGPT */
+
+#chatimg {
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.p2 {line-height: 1.2;}
+
+/* Slag Medsin */
+
+.p3 {
+    line-height: 1.5;
+    font-size: 3rem;
 }
