@@ -210,13 +210,16 @@ article.xx-large {
     padding: 0;
 }
 
+.p4 {
+    line-height: 1.5;
+    font-size: 2.7rem;
+}
+
 /* Quantum Computing */
 
 a.kilder {
     text-decoration: underline !important;
 }
-
-
 
 /* Mark og Meta KI */
 
