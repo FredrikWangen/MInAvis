@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bytesized&display=swap');
+
 :root {
     --main-color: #8EB1C7
 }
@@ -39,7 +41,7 @@ nav {
 }
 
 nav a,
-nav button {
+nav button{
     background-color: inherit;
     color: darkblue;
     text-decoration: none;
@@ -53,6 +55,17 @@ nav button {
 .bildeforside {
     width: 100% !important;
 }
+
+.logoSkrift{
+        font-family: "Bytesized", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5rem;
+        padding: 15px;
+        margin-right: auto;
+      }
+      
+
 
 .dropdown-content {
     display: none;
