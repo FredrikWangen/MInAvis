@@ -38,13 +38,13 @@ nav {
 
 
 nav {
-    background-color: var(--main-color);
+    background-color: #d53131;
 }
 
 nav a,
 nav button{
     background-color: inherit;
-    color: darkblue;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 1.5rem;
     padding: 15px;
@@ -61,9 +61,10 @@ nav button{
         font-family: "Bytesized", sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 1.5rem;
-        padding: 15px;
+        font-size: 40px;
+        padding: auto;
         margin-right: auto;
+        margin-top: 5px;
       }
       
 
