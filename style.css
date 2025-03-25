@@ -87,6 +87,21 @@ nav button{
     color: white;
 }
 
+.kontakt {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.kontakt li {
+    background: #d53131;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
 .fa-caret-down.rotate {
     transform: rotate(360deg);
     transition: transform 1s ease;
@@ -193,6 +208,12 @@ article.xx-large {
 .head1 {
     font-size: 2rem;
     margin: 20px 0px 0px 0px;
+    padding: 10px;
+    line-height: 1.7;
+}
+
+.head2{
+    font-size: 1.2rem;
     padding: 10px;
     line-height: 1.7;
 }
