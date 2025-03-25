@@ -282,3 +282,10 @@ a.kilder {
     line-height: 1.5;
     font-size: 3rem;
 }
+
+/* Kjørende Artikkel */
+
+#kjørende {height: 600px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;}
