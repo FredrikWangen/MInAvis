@@ -222,14 +222,14 @@ article.xx-large {
 
 .footer1 {
     font-size: 1rem;
-    background-color: var(--main-color);
+    background-color: #d53131;
     height: 60px;
     padding: 20px 0;
     text-align: center
     
 }
 
-.footer1>a {
+.footer1>p {
     color: white;
     text-decoration: none;
 }
