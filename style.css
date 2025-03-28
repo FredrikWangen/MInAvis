@@ -473,12 +473,14 @@ a.kilder {
 /* Trivia */
 .triviaBody {
     display: flex;
+    flex-direction: column;
     max-width: 900px;
     margin-top: 1rem;
     justify-content: center;
     align-items: center;
     margin-right: auto;
     margin-left: auto;
+    background-color: rgb(254, 254, 254);
 
 } 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
@@ -488,18 +490,18 @@ a.kilder {
     box-sizing: border-box;
 }
 :root{
-    --light-purple-color: #8854C0;
+    --light-purple-color: #d53131;
     --light-color: #fff;
     --dark-color: #000;
     --grey-color: #f2f2f2;
     --transition: all 300ms ease-in-out;
 }
 .poengsum{
-    text-align: right;
+    text-align: center;
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin-bottom: 1rem;
-    border: 5px solid var(--grey-color);
+    border: 5px solid rgb(254, 254, 254);
     font-weight: bold;
     width: 100px;
     height: 50px;
@@ -510,7 +512,7 @@ a.kilder {
     font-size: 1.2rem;
     text-align: center;
     line-height: 1.3;
-    margin-bottom: 2rem;
+    margin-bottom: 2rem;;
 }
 .triviaOptions .category{
     font-size: 0.9rem;
@@ -535,8 +537,8 @@ a.kilder {
     border: 3px solid var(--light-purple-color);
     background-color: var(--light-purple-color);
     color: var(--light-color);
-    box-shadow: 0 4px 0 0 #6c4298;
-    transition: var(--transition);
+    box-shadow: 0 4px 0 0 #d32d2d;
+    transition: var(--transition);;
 }
 .triviaOptions li:hover{
     background-color: var(--grey-color);
@@ -597,4 +599,8 @@ a.kilder {
     margin-bottom: .5rem;
     background-color: var(--light-purple-color);
     color: var(--light-color);
+}
+
+#trivia {
+    max-width: 80%;
 }
