@@ -340,21 +340,24 @@ a.kilder {
         flex-direction: column;
         align-items: center;
     }
-    .master > article {
+
+    .master>article {
         grid-column: span 12;
         width: 100%;
-        margin: 0 auto; 
+        margin: 0 auto;
     }
 
-    #gemimg {height: auto;}
-    
+    #gemimg {
+        height: auto;
+    }
+
 }
 
 /* Media Query 700px */
 
 @media (max-width: 700px) {
 
-    .master > article a {
+    .master>article a {
         font-size: 2.2rem;
     }
 }
@@ -363,17 +366,108 @@ a.kilder {
 
 @media (max-width: 500px) {
 
-    .master > article a {
+    .master>article a {
         font-size: 1.6rem;
     }
 }
 
 /* Media query for 230px */
 
-@media (max-width: 230px) {    
-    
-    .master > article a {
+@media (max-width: 230px) {
+
+    .master>article a {
         font-size: 1.2rem;
     }
 
+}
+
+
+/* Media query 700px Individuelle Artikkler  */
+
+@media (max-width: 700px) {
+    .Artikkellayout {
+        width: 90%;
+        margin-top: 100px;
+        padding: 20px;
+
     }
+
+    .nyhettext {
+        font-size: 2.8rem;
+    }
+
+    .p1 {
+        font-size: 1.2rem;
+    }
+
+    .head1 {
+        font-size: 1.8rem;
+    }
+}
+
+/* Media query 500px Individuelle Artikkler  */
+
+@media (max-width: 500px) {
+    .Artikkellayout {
+        padding: 15px;
+    }
+
+    .nyhettext {
+        font-size: 2rem;
+    }
+
+    .p1 {
+        font-size: 1rem;
+    }
+
+    .head1 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Media query 400px Individuelle Artikkler  */
+
+@media (max-width: 400px) {
+    .Artikkellayout {
+        padding: 10px;
+
+    }
+
+    .nyhettext {
+        font-size: 1.6rem;
+    }
+
+    .p1 {
+        font-size: 0.9rem;
+    }
+
+    .head1 {
+        font-size: 1.3rem;
+    }
+
+    .xx-large.nyhettext img {
+        width: 80%;
+    }
+}
+
+/* Media query 300px Individuelle Artikkler */
+
+@media (max-width: 300px) {
+    .Artikkellayout {
+        padding: 5px;
+    }
+
+    /* Reduser tekststørrelse på artikkelen */
+
+    .nyhettext {
+        font-size: 1.4rem;
+    }
+
+    .p1 {
+        font-size: 0.8rem;
+    }
+
+    .head1 {
+        font-size: 1.2rem;
+    }
+}
