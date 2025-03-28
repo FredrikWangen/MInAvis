@@ -253,14 +253,14 @@ article.xx-large {
 
 .footer1 {
     font-size: 1rem;
-    background-color: var(--main-color);
+    background-color: #d53131;
     height: 60px;
     padding: 20px 0;
     text-align: center
     
 }
 
-.footer1>a {
+.footer1>p {
     color: white;
     text-decoration: none;
 }
@@ -320,3 +320,14 @@ a.kilder {
     border-radius: 10px;
     margin-bottom: 30px;
     padding-bottom: 20px;}
+
+/* Gemini Artikkel */
+
+#gemimg {height: 150px;}
+
+#p5 {line-height: 1.2;}
+
+/* Tips oss */
+#TipsBoks{
+    margin-bottom: 8%;
+}
