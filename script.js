@@ -26,3 +26,20 @@ function documentKlikk(event) {
     }
 }
 
+const inputEl = document.querySelector(".input")
+const navnEl = document.querySelector(".navn")
+
+const largetNavn = localStorage.getItem("brukernavn")
+if(largetNavn){
+    navnEl.textContent = largetNavn
+}
+
+inputEl.addEventListener("keydown", function (event) {
+    if (event.key === "Enter") {
+        const inputnavn = inputEl.value
+        navnEl.textContent = inputEl.value
+        localStorage.setItem("brukernavn", inputnavn)
+    }
+})
+
+
