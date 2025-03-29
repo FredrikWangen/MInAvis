@@ -350,8 +350,21 @@ a.kilder {
     #gemimg {
         height: auto;
     }
+    nav {
+        justify-content: space-between; 
+        padding: 0 10px;
+    }
 
+    .logoSkrift {
+        font-size: 6vw;
+    }
+
+    .input {
+        width: 150px;
+    }
 }
+
+
 
 /* Media Query 700px */
 
@@ -362,15 +375,19 @@ a.kilder {
     }
 }
 
+
+
+@media (max-width: 600px){
+   
+    
+    
+    
+}
+
 @media (max-width: 600px){
     .input{
-        display: none;
+        width: 100px;
     }
-    .navn{
-        display: none;
-    }
-    
-    
 }
 
 /* Media Query 500px */
@@ -380,9 +397,21 @@ a.kilder {
     .master>article a {
         font-size: 1.6rem;
     }
+    .input{
+        width: 70px;
+    }
 }
 
-@media (max-width: 315px){
+@media (max-width: 440px){
+    .input{
+        display: none;
+    }
+    
+}
+
+
+
+@media (max-width: 320px){
     .logoSkrift{
         font-size: 20px;
     }
@@ -390,6 +419,13 @@ a.kilder {
         font-size: 20px;
     }
 }
+
+@media (max-width: 320px){
+    .navn{
+        display: none;
+    }
+}
+
 @media (max-width: 215px){
     .logoSkrift{
         font-size: 15px;
