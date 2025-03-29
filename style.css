@@ -362,12 +362,40 @@ a.kilder {
     }
 }
 
+@media (max-width: 600px){
+    .input{
+        display: none;
+    }
+    .navn{
+        display: none;
+    }
+    
+    
+}
+
 /* Media Query 500px */
 
 @media (max-width: 500px) {
 
     .master>article a {
         font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 315px){
+    .logoSkrift{
+        font-size: 20px;
+    }
+    .dropbtn{
+        font-size: 20px;
+    }
+}
+@media (max-width: 215px){
+    .logoSkrift{
+        font-size: 15px;
+    }
+    .dropbtn{
+        font-size: 10px;
     }
 }
 
@@ -404,6 +432,7 @@ a.kilder {
         font-size: 1.8rem;
     }
 }
+
 
 /* Media query 500px Individuelle Artikkler  */
 

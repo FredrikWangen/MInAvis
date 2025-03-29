@@ -39,7 +39,11 @@ inputEl.addEventListener("keydown", function (event) {
         const inputnavn = inputEl.value
         navnEl.textContent = inputEl.value
         localStorage.setItem("brukernavn", inputnavn)
+
+       
     }
 })
+
+
 
 
