@@ -373,10 +373,10 @@ a.kilder {
 }
 #trivia {
     display: flex;
-    justify-content: center; 
-    align-items: center; 
-    margin: -20px auto -20px auto; 
-    
+    justify-content: center;
+    align-items: center;
+    margin: -20px auto -20px auto;
+
 }
 
 #triviaQ {
@@ -569,9 +569,11 @@ a.kilder {
         font-size: 20px;
     }
 
-    #triviaQ {font-size: 1.4rem;
-    padding: 0px;}
-}
+        #triviaQ {
+            font-size: 1.4rem;
+            padding: 0px;
+        }
+        }
 
 @media (max-width: 320px){
     .navn{
