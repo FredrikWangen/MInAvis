@@ -332,144 +332,6 @@ a.kilder {
     margin-bottom: 8%;
 }
 
-/* Media query for 800px  */
-
-@media (max-width: 800px) {
-    .master {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .master>article {
-        grid-column: span 12;
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    #gemimg {
-        height: auto;
-    }
-
-}
-
-/* Media Query 700px */
-
-@media (max-width: 700px) {
-
-    .master>article a {
-        font-size: 2.2rem;
-    }
-}
-
-/* Media Query 500px */
-
-@media (max-width: 500px) {
-
-    .master>article a {
-        font-size: 1.6rem;
-    }
-}
-
-/* Media query for 230px */
-
-@media (max-width: 230px) {
-
-    .master>article a {
-        font-size: 1.2rem;
-    }
-
-}
-
-
-/* Media query 700px Individuelle Artikkler  */
-
-@media (max-width: 700px) {
-    .Artikkellayout {
-        width: 90%;
-        margin-top: 100px;
-        padding: 20px;
-
-    }
-
-    .nyhettext {
-        font-size: 2.8rem;
-    }
-
-    .p1 {
-        font-size: 1.2rem;
-    }
-
-    .head1 {
-        font-size: 1.8rem;
-    }
-}
-
-/* Media query 500px Individuelle Artikkler  */
-
-@media (max-width: 500px) {
-    .Artikkellayout {
-        padding: 15px;
-    }
-
-    .nyhettext {
-        font-size: 2rem;
-    }
-
-    .p1 {
-        font-size: 1rem;
-    }
-
-    .head1 {
-        font-size: 1.5rem;
-    }
-}
-
-/* Media query 400px Individuelle Artikkler  */
-
-@media (max-width: 400px) {
-    .Artikkellayout {
-        padding: 10px;
-
-    }
-
-    .nyhettext {
-        font-size: 1.6rem;
-    }
-
-    .p1 {
-        font-size: 0.9rem;
-    }
-
-    .head1 {
-        font-size: 1.3rem;
-    }
-
-    .xx-large.nyhettext img {
-        width: 80%;
-    }
-}
-
-/* Media query 300px Individuelle Artikkler */
-
-@media (max-width: 300px) {
-    .Artikkellayout {
-        padding: 5px;
-    }
-
-    .nyhettext {
-        font-size: 1.4rem;
-    }
-
-    .p1 {
-        font-size: 0.8rem;
-    }
-
-    .head1 {
-        font-size: 1.2rem;
-    }
-}
-
 /* Trivia */
 .triviaBody {
     display: flex;
@@ -603,4 +465,213 @@ a.kilder {
 
 #trivia {
     max-width: 80%;
+}
+
+/* Media query for 800px  */
+
+@media (max-width: 800px) {
+    .master {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .master>article {
+        grid-column: span 12;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #gemimg {
+        height: auto;
+    }
+    nav {
+        justify-content: space-between; 
+        padding: 0 10px;
+    }
+
+    .logoSkrift {
+        font-size: 6vw;
+    }
+
+    .input {
+        width: 150px;
+    }
+    #trivia {
+        max-width: 100%;
+    }
+    #triviaQ {
+        width: 100%;
+    }
+}
+
+
+
+/* Media Query 700px */
+
+@media (max-width: 700px) {
+
+    .master>article a {
+        font-size: 2.2rem;
+    }
+}
+
+
+
+@media (max-width: 600px){
+   
+    
+    
+    
+}
+
+@media (max-width: 600px){
+    .input{
+        width: 100px;
+    }
+}
+
+/* Media Query 500px */
+
+@media (max-width: 500px) {
+
+    .master>article a {
+        font-size: 1.6rem;
+    }
+    .input{
+        width: 70px;
+    }
+}
+
+@media (max-width: 460px){
+    .input{
+        display: none;
+    }
+    
+}
+
+
+
+@media (max-width: 333px){
+    .logoSkrift{
+        font-size: 20px;
+    }
+    .dropbtn{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 320px){
+    .navn{
+        display: none;
+    }
+}
+
+@media (max-width: 242px){
+    .logoSkrift{
+        font-size: 15px;
+    }
+    .dropbtn{
+        font-size: 10px;
+    }
+}
+
+/* Media query for 230px */
+
+@media (max-width: 230px) {
+
+    .master>article a {
+        font-size: 1.2rem;
+    }
+
+}
+
+
+/* Media query 700px Individuelle Artikkler  */
+
+@media (max-width: 700px) {
+    .Artikkellayout {
+        width: 90%;
+        margin-top: 100px;
+        padding: 20px;
+
+    }
+
+    .nyhettext {
+        font-size: 2.8rem;
+    }
+
+    .p1 {
+        font-size: 1.2rem;
+    }
+
+    .head1 {
+        font-size: 1.8rem;
+    }
+}
+
+
+/* Media query 500px Individuelle Artikkler  */
+
+@media (max-width: 500px) {
+    .Artikkellayout {
+        padding: 15px;
+    }
+
+    .nyhettext {
+        font-size: 2rem;
+    }
+
+    .p1 {
+        font-size: 1rem;
+    }
+
+    .head1 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Media query 400px Individuelle Artikkler  */
+
+@media (max-width: 400px) {
+    .Artikkellayout {
+        padding: 10px;
+
+    }
+
+    .nyhettext {
+        font-size: 1.6rem;
+    }
+
+    .p1 {
+        font-size: 0.9rem;
+    }
+
+    .head1 {
+        font-size: 1.3rem;
+    }
+
+    .xx-large.nyhettext img {
+        width: 80%;
+    }
+}
+
+/* Media query 300px Individuelle Artikkler */
+
+@media (max-width: 300px) {
+    .Artikkellayout {
+        padding: 5px;
+    }
+
+    .nyhettext {
+        font-size: 1.4rem;
+    }
+
+    .p1 {
+        font-size: 0.8rem;
+    }
+
+    .head1 {
+        font-size: 1.2rem;
+    }
 }
